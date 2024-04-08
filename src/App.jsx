@@ -1,21 +1,25 @@
+import { Hero, Footer, Faq, Cta, Categories, Card } from './sections';
+
+import Nav from './components/Nav';
+
 const App = () => (
   <main className="relative">
-    Nav
+    <Nav />
     <section className="xl:padding-1 wide:padding-r padding-b bg-slate-gray">
-      Hero
+      <Hero />
     </section>
     <section className="padding">
-      Categories
-      CategoryCard
+      <Categories />
+      <Card />
     </section>
     <section className="padding bg-slate-gray">
-      FAQs
+      <Faq />
     </section>
     <section className="padding bg-dark-blue">
-      CTA
+      <Cta />
     </section>
     <section className="padding">
-      Footer
+      <Footer />
     </section>
   </main>
 );

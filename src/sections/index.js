@@ -4,3 +4,12 @@ import Faq from './Faq';
 import Cta from './Cta';
 import Categories from './Categories';
 import Card from './Card';
+
+export {
+    Hero,
+    Footer,
+    Faq,
+    Cta,
+    Categories,
+    Card
+}

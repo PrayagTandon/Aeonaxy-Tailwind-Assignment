@@ -25,7 +25,8 @@ export default {
         'primary': "#236CDE",
         "slate-gray": "#F7FAFF",
         "black": "#000000",
-        "white": "#FFFFFF"
+        "white": "#FFFFFF",
+        "dark-blue": "#092640"
       },
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'

@@ -5,7 +5,7 @@ import Nav from './components/Nav';
 const App = () => (
   <main className="relative">
     <Nav />
-    <section className="bg-slate-gray">
+    <section className="bg-slate-gray mb-24">
       <Hero />
     </section>
     <section className="padding">

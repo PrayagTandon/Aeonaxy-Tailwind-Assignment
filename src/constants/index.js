@@ -16,5 +16,5 @@ export const categoriesList = [
 ];
 
 export const brandCard = [
-    { imgSrc:  , title: Zoom, }
+    // { imgSrc:  , title: Zoom, }
 ]

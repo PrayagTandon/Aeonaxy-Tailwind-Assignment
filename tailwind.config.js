@@ -22,11 +22,13 @@ export default {
         montserrat: ['Montserrat', 'sans-serif'],
       },
       colors: {
-        'primary': "#236CDE",
+        "primary": "#236CDE",
         "slate-gray": "#F7FAFF",
         "black": "#000000",
         "white": "#FFFFFF",
-        "dark-blue": "#092640"
+        "dark-blue": "#092640",
+        "primary-light": "#4f89e5",
+        "primary-dark": "#1c56b2"
       },
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'

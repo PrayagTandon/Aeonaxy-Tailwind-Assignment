@@ -10,17 +10,17 @@ const Nav = () => {
                 <a href="/">
                     <img src={HeaderLogo} alt="Header Logo" width={130} height={29} />
                 </a>
-                <ul className='flex-1 flex justify-center items-center ga-16 max-lg:hidden'>
-                    <li><a href="#" className='font-montserrat leading-normal text-md text-black font-semibold pr-16'>Individuals</a></li>
-                    <li><a href="#" className='font-montserrat leading-normal text-md text-black font-semibold pr-16'>Teams</a></li>
-                    <li><a href="#" className='font-montserrat leading-normal text-md text-black font-semibold pr-16'>Enterprise</a></li>
+                <ul className='flex justify-center items-center ga-16 max-lg:hidden'>
+                    <li><a href="#" className='font-montserrat leading-normal text-md text-black font-semibold pr-12'>Individuals</a></li>
+                    <li><a href="#" className='font-montserrat leading-normal text-md text-black font-semibold pr-12'>Teams</a></li>
+                    <li><a href="#" className='font-montserrat leading-normal text-md text-black font-semibold pr-12'>Enterprise</a></li>
                     <li>
-                        <a href="#" className='font-montserrat leading-normal text-md text-black font-semibold pr-16 flex justify-center items-center gap-1'>
+                        <a href="#" className='font-montserrat leading-normal text-md text-black font-semibold pr-12 flex justify-center items-center gap-1'>
                             Product
                             <FontAwesomeIcon icon={faAngleDown} />
                         </a>
                     </li>
-                    <li><a href="#" className='font-montserrat leading-normal text-md text-black font-semibold pr-16'>Pricing</a></li>
+                    <li><a href="#" className='font-montserrat leading-normal text-md text-black font-semibold pr-12'>Pricing</a></li>
                     <li>
                         <a href="#" className='font-montserrat leading-normal text-md text-black font-semibold flex justify-center items-center gap-1'>
                             Resources
@@ -28,9 +28,9 @@ const Nav = () => {
                         </a>
                     </li>
                 </ul>
-                <ul className='flex-1 flex justify-center items-center ga-16 max-lg:hidden'>
-                    <button type="submit">Log In</button>
-                    <button type="submit">Get Started</button>
+                <ul className='flex justify-center items-center ga-12 max-lg:hidden'>
+                    <button type="submit" className='text-black font-bold bg-white p-4 pr-8 text-base'>Log In</button>
+                    <button type="submit" className=' font-bold py-4 px-6 bg-primary text-white text-sm rounded-full text-center'>Get Started</button>
                 </ul>
             </nav>
         </header>

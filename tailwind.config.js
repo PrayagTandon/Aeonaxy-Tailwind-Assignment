@@ -25,9 +25,10 @@ export default {
         "primary": "#236CDE",
         "slate-gray": "#F7FAFF",
         "black": "#000000",
+        "black-light": "#1a1a1a",
         "white": "#FFFFFF",
         "dark-blue": "#092640",
-        "primary-light": "#4f89e5",
+        "primary-light": "#397be1",
         "primary-dark": "#1c56b2"
       },
       boxShadow: {

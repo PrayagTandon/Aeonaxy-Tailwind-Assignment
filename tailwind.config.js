@@ -14,6 +14,7 @@ export default {
       '2xl': ['24px', '29.26px'],
       '3xl': ['28px', '50px'],
       '4xl': ['48px', '58px'],
+      '5xl': ['60px', '72px'],
       '8xl': ['96px', '106px']
     },
     extend: {
@@ -29,7 +30,9 @@ export default {
         "white": "#FFFFFF",
         "dark-blue": "#092640",
         "primary-light": "#397be1",
-        "primary-dark": "#1c56b2"
+        "primary-dark": "#1c56b2",
+        "gray-dark": "#999999",
+        "gray-light": "#b3b3b3",
       },
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'

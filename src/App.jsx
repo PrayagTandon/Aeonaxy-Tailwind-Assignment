@@ -5,10 +5,10 @@ import Nav from './components/Nav';
 const App = () => (
   <main className="relative">
     <Nav />
-    <section className="bg-slate-gray mb-24">
+    <section className="bg-slate-gray">
       <Hero />
     </section>
-    <section className="padding">
+    <section className="padding flex  justify-start items-start gap-10">
       <Categories />
       <Card />
     </section>

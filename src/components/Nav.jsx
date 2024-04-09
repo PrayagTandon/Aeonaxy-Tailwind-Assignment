@@ -1,5 +1,7 @@
 import HeaderLogo from '../assets/images/HeaderLogo.png';
 import Hamburger from '../assets/images/Hamburger.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons/faAngleDown';
 
 const Nav = () => {
     return (
@@ -12,9 +14,19 @@ const Nav = () => {
                     <li><a href="#" className='font-montserrat leading-normal text-md text-black font-semibold pr-16'>Individuals</a></li>
                     <li><a href="#" className='font-montserrat leading-normal text-md text-black font-semibold pr-16'>Teams</a></li>
                     <li><a href="#" className='font-montserrat leading-normal text-md text-black font-semibold pr-16'>Enterprise</a></li>
-                    <li><a href="#" className='font-montserrat leading-normal text-md text-black font-semibold pr-16'>Product</a></li>
+                    <li>
+                        <a href="#" className='font-montserrat leading-normal text-md text-black font-semibold pr-16 flex justify-center items-center gap-1'>
+                            Product
+                            <FontAwesomeIcon icon={faAngleDown} />
+                        </a>
+                    </li>
                     <li><a href="#" className='font-montserrat leading-normal text-md text-black font-semibold pr-16'>Pricing</a></li>
-                    <li><a href="#" className='font-montserrat leading-normal text-md text-black font-semibold'>Resources</a></li>
+                    <li>
+                        <a href="#" className='font-montserrat leading-normal text-md text-black font-semibold flex justify-center items-center gap-1'>
+                            Resources
+                            <FontAwesomeIcon icon={faAngleDown} />
+                        </a>
+                    </li>
                 </ul>
                 <ul className='flex-1 flex justify-center items-center ga-16 max-lg:hidden'>
                     <button type="submit">Log In</button>

@@ -13,4 +13,8 @@ export const categoriesList = [
     { title: "Email Messaging" },
     { title: "Embed Calendly" },
     { title: "Other Integrations" },
+];
+
+export const brandCard = [
+    { imgSrc:  , title: Zoom, }
 ]

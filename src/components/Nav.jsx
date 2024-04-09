@@ -5,7 +5,7 @@ import { faAngleDown } from '@fortawesome/free-solid-svg-icons/faAngleDown';
 
 const Nav = () => {
     return (
-        <header className='padding-x py-8 z-10 w-full'>
+        <header className='padding-x z-10 w-full py-5'>
             <nav className='flex justify-between items-center max-container'>
                 <a href="/">
                     <img src={HeaderLogo} alt="Header Logo" width={130} height={29} />
@@ -32,6 +32,14 @@ const Nav = () => {
                     <button type="submit" className='text-black font-bold bg-white p-4 text-base transition-all rounded-full border-2 border-white hover:border-primary'>Log In</button>
                     <button type="submit" className=' font-bold py-4 px-6 bg-primary text-white text-sm rounded-full text-center transition-all hover:bg-primary-light'>Get Started</button>
                 </ul>
+                <div className='hidden max-lg:block'>
+                    <img
+                        src={Hamburger}
+                        alt="Hamburger"
+                        width={25}
+                        height={25}
+                    />
+                </div>
             </nav>
         </header>
     )

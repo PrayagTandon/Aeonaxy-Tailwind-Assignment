@@ -39,6 +39,9 @@ export default {
       },
       screens: {
         "wide": "1440px"
+      },
+      gridTemplateColumns: {
+        '3': 'repeat(3, minmax(300px, 1fr))'
       }
     },
   },

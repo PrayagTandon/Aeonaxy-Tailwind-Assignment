@@ -1,4 +1,4 @@
-import ChromeLogo from './GooglechromehromeLogo.svg';
+import ChromeLogo from './GooglechromeLogo.svg';
 import GoogleanalyticsLogo from './GoogleanalyticsLogo.svg';
 import GotoLogo from './GoToLogo.svg';
 import CalendlyLogo from './CalendlyLogo.svg';

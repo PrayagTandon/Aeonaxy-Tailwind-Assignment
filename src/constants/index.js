@@ -1,4 +1,20 @@
-import { ZoomLogo } from "../assets/icons";
+import {
+    ChromeLogo,
+    GoogleanalyticsLogo,
+    GotoLogo,
+    CalendlyLogo,
+    HubspotLogo,
+    IntercomLogo,
+    PaypalLogo,
+    SalesforceLogo,
+    TypeformLogo,
+    WebexLogo,
+    ZapierLogo,
+    ZoomLogo,
+    SlackLogo,
+    StripeLogo,
+    TeamsLogo
+} from "../assets/icons";
 
 export const categoriesList = [
     { title: "All" },
@@ -18,5 +34,20 @@ export const categoriesList = [
 ];
 
 export const brandCard = [
-    { imgSrc: { ZoomLogo }, title: 'Zoom', }
-]
+    { imgSrc: ZoomLogo, title: 'Zoom', description: 'Connect from anywhere and eliminate administrative work.', spanLink: 'Learn more' },
+    { imgSrc: TypeformLogo, title: 'Typeform', description: 'Gather, qualify, and schedule.', spanLink: 'Learn more' },
+    { imgSrc: WebexLogo, title: 'Webex', description: 'Connect from anywhere and eliminate administrative work.', spanLink: 'Learn more' },
+    { imgSrc: SlackLogo, title: 'Slack', description: "Automate smarter workflows and incorporate Calendly right into your organization's Slack channels.", spanLink: 'Learn more' },
+    { imgSrc: SalesforceLogo, title: 'Salesforce', description: 'Calendly takes the work out of updating Salesforce so you can sell more.', spanLink: 'Learn more' },
+    { imgSrc: '...', title: 'Looking to build an Integration with us?', description: 'Visit our Developers Portal to explore our API docs and other integration resources.', spanLink: 'Get started' },
+    { imgSrc: TeamsLogo, title: 'Microsoft Teams', description: 'Connect from anywhere and eliminate administrative work.', spanLink: 'Learn more' },
+    { imgSrc: HubspotLogo, title: 'Hubspot', description: 'Calendly updates HubSpot for you so you can focus on building relationships.', spanLink: 'Learn more' },
+    { imgSrc: ZapierLogo, title: 'Zapier', description: 'Connect Calendly to your other tools and automate your workflows.', spanLink: 'Learn more' },
+    { imgSrc: PaypalLogo, title: 'Paypal', description: 'Simplify billing and reduce no-shows with an integrated PayPal account.', spanLink: 'Learn more' },
+    { imgSrc: IntercomLogo, title: 'Intercom', description: 'Schedule meetings with leads and customers right from Intercom Messenger.', spanLink: 'Learn more' },
+    { imgSrc: StripeLogo, title: 'Stripe', description: 'Simplify billing and reduce no-shows with an integrated Stripe account.', spanLink: 'Learn more' },
+    { imgSrc: GotoLogo, title: 'GoTo Meeting', description: 'Connect from anywhere and eliminate administrative work.', spanLink: 'Learn more' },
+    { imgSrc: GoogleanalyticsLogo, title: 'Google Analytics', description: 'Improve campaign tracking using Calendly with your Google Analytics account.', spanLink: 'Learn more' },
+    { imgSrc: CalendlyLogo, title: 'Calendly APIs', description: 'Leverage Calendly APIs for custom Calendly integrations within your product.', spanLink: 'Learn more' },
+    { imgSrc: ChromeLogo, title: 'Chrome', description: "Use Calendly while you're on the web, without switching tabs.", spanLink: 'Learn more' },
+];

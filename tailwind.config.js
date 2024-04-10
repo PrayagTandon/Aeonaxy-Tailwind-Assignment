@@ -33,6 +33,7 @@ export default {
         "primary-dark": "#1c56b2",
         "gray-dark": "#999999",
         "gray-light": "#b3b3b3",
+        "gray-lightest": "#d9d9d9",
       },
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'

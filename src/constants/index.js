@@ -52,3 +52,11 @@ export const brandCard = [
     { imgSrc: CalendlyLogo, title: 'Calendly APIs', description: 'Leverage Calendly APIs for custom Calendly integrations within your product.', spanLink: 'Learn more' },
     { imgSrc: ChromeLogo, title: 'Chrome', description: "Use Calendly while you're on the web, without switching tabs.", spanLink: 'Learn more' },
 ];
+
+export const FAQs = [
+    { ques: 'What are Calendly apps?' },
+    { ques: 'What are Calendly integrations?' },
+    { ques: 'How do I install and use integrations?' },
+    { ques: 'How can I reuest a new integrations?' },
+    { ques: 'Want to build a Calendly integration? Learn about our API.' },
+];

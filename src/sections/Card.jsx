@@ -1,8 +1,6 @@
 import { brandCard } from "../constants";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { ZoomLogo } from "../assets/icons";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
-import { width } from "@fortawesome/free-solid-svg-icons/fa0";
 
 const Card = () => {
     return (
@@ -12,7 +10,7 @@ const Card = () => {
                 <ul className="grid grid-cols-3 gap-10 justify-stretch">
                     {brandCard.map((cards) => (
                         <div className="w-4/5">
-                            <li className="p-6 grid grid-cols-1 justify-start items-start gap-6 shadow-lg rounded-lg h-full transition-all hover:bg-black hover:cursor-pointer">
+                            <li className="p-6 grid grid-cols-1 justify-start items-start gap-6 shadow-lg rounded-lg h-full transition-all hover:cursor-pointer">
                                 <div className="w-2/3 h-[50px]">
                                     <img
                                         src={cards.imgSrc}

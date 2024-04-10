@@ -13,8 +13,10 @@ import TypeformLogo from './TypeformLogo.svg';
 import WebexLogo from './WebexLogo.svg';
 import ZapierLogo from './ZapierLogo.svg';
 import ZoomLogo from './ZoomLogo.svg';
+import BuilWithUsLogo from './BuildWithUsLogo.svg'
 
 export {
+    BuilWithUsLogo,
     ChromeLogo,
     GoogleanalyticsLogo,
     GotoLogo,

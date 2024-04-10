@@ -1,4 +1,5 @@
 import {
+    BuilWithUsLogo,
     ChromeLogo,
     GoogleanalyticsLogo,
     GotoLogo,
@@ -39,7 +40,7 @@ export const brandCard = [
     { imgSrc: WebexLogo, title: 'Webex', description: 'Connect from anywhere and eliminate administrative work.', spanLink: 'Learn more' },
     { imgSrc: SlackLogo, title: 'Slack', description: "Automate smarter workflows and incorporate Calendly right into your organization's Slack channels.", spanLink: 'Learn more' },
     { imgSrc: SalesforceLogo, title: 'Salesforce', description: 'Calendly takes the work out of updating Salesforce so you can sell more.', spanLink: 'Learn more' },
-    { imgSrc: '...', title: 'Looking to build an Integration with us?', description: 'Visit our Developers Portal to explore our API docs and other integration resources.', spanLink: 'Get started' },
+    { imgSrc: BuilWithUsLogo, title: 'Looking to build an Integration with us?', description: 'Visit our Developers Portal to explore our API docs and other integration resources.', spanLink: 'Get started' },
     { imgSrc: TeamsLogo, title: 'Microsoft Teams', description: 'Connect from anywhere and eliminate administrative work.', spanLink: 'Learn more' },
     { imgSrc: HubspotLogo, title: 'Hubspot', description: 'Calendly updates HubSpot for you so you can focus on building relationships.', spanLink: 'Learn more' },
     { imgSrc: ZapierLogo, title: 'Zapier', description: 'Connect Calendly to your other tools and automate your workflows.', spanLink: 'Learn more' },

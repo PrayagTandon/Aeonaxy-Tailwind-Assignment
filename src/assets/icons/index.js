@@ -13,7 +13,12 @@ import TypeformLogo from './TypeformLogo.svg';
 import WebexLogo from './WebexLogo.svg';
 import ZapierLogo from './ZapierLogo.svg';
 import ZoomLogo from './ZoomLogo.svg';
-import BuilWithUsLogo from './BuildWithUsLogo.svg'
+import BuilWithUsLogo from './BuildWithUsLogo.svg';
+import TwitterLogo from './TwitterLogo.svg';
+import InstagramLogo from './InstagramLogo.svg';
+import FacebookLogo from './FacebookLogo.svg';
+import YoutubeLogo from './YoutubeLogo.svg';
+import LinkeinLogo from './LinkeinLogo.svg';
 
 export {
     BuilWithUsLogo,
@@ -31,5 +36,10 @@ export {
     ZoomLogo,
     SlackLogo,
     StripeLogo,
-    TeamsLogo
+    TeamsLogo,
+    TwitterLogo,
+    InstagramLogo,
+    FacebookLogo,
+    YoutubeLogo,
+    LinkeinLogo
 }

@@ -14,7 +14,12 @@ import {
     ZoomLogo,
     SlackLogo,
     StripeLogo,
-    TeamsLogo
+    TeamsLogo,
+    TwitterLogo,
+    InstagramLogo,
+    FacebookLogo,
+    YoutubeLogo,
+    LinkeinLogo
 } from "../assets/icons";
 
 export const categoriesList = [
@@ -60,3 +65,11 @@ export const FAQs = [
     { ques: 'How can I reuest a new integrations?' },
     { ques: 'Want to build a Calendly integration? Learn about our API.' },
 ];
+
+export const brandLinks = [
+    { imgSrc: TwitterLogo, alt: 'Twitter' },
+    { imgSrc: FacebookLogo, alt: 'Facebook' },
+    { imgSrc: InstagramLogo, alt: 'Instagram' },
+    { imgSrc: LinkeinLogo, alt: 'Linkedin' },
+    { imgSrc: YoutubeLogo, alt: 'Youtube' },
+]

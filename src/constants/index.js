@@ -19,7 +19,7 @@ import {
     InstagramLogo,
     FacebookLogo,
     YoutubeLogo,
-    LinkeinLogo
+    LinkedinLogo
 } from "../assets/icons";
 
 export const categoriesList = [
@@ -70,6 +70,6 @@ export const brandLinks = [
     { imgSrc: TwitterLogo, alt: 'Twitter' },
     { imgSrc: FacebookLogo, alt: 'Facebook' },
     { imgSrc: InstagramLogo, alt: 'Instagram' },
-    { imgSrc: LinkeinLogo, alt: 'Linkedin' },
+    { imgSrc: LinkedinLogo, alt: 'Linkedin' },
     { imgSrc: YoutubeLogo, alt: 'Youtube' },
 ]

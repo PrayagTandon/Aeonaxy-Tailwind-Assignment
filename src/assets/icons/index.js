@@ -18,7 +18,7 @@ import TwitterLogo from './TwitterLogo.svg';
 import InstagramLogo from './InstagramLogo.svg';
 import FacebookLogo from './FacebookLogo.svg';
 import YoutubeLogo from './YoutubeLogo.svg';
-import LinkeinLogo from './LinkeinLogo.svg';
+import LinkedinLogo from './LinkedinLogo.svg';
 
 export {
     BuilWithUsLogo,
@@ -41,5 +41,5 @@ export {
     InstagramLogo,
     FacebookLogo,
     YoutubeLogo,
-    LinkeinLogo
+    LinkedinLogo
 }

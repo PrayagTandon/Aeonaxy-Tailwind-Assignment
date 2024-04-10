@@ -1,4 +1,4 @@
-import { ZoomLogo } from '../assets/icons/zoomLogo.png';
+import { ZoomLogo } from "../assets/icons";
 
 export const categoriesList = [
     { title: "All" },
@@ -18,5 +18,5 @@ export const categoriesList = [
 ];
 
 export const brandCard = [
-    { imgSrc: { ZoomLogo }, title: Zoom, }
+    { imgSrc: { ZoomLogo }, title: 'Zoom', }
 ]

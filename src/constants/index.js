@@ -72,4 +72,13 @@ export const brandLinks = [
     { imgSrc: InstagramLogo, alt: 'Instagram' },
     { imgSrc: LinkedinLogo, alt: 'Linkedin' },
     { imgSrc: YoutubeLogo, alt: 'Youtube' },
-]
+];
+
+export const footerLinks = [
+    { title: "About", items: ["About Calendly", "Contact Sales", "Newsroom", "Careers", "Security"] },
+    { title: "Solutions", items: ["Customer Success", "Sales", "Recruiting", "Information Technology", "Marketing"] },
+    { title: "Popular Features", items: ["Embed Calendly", "Availability", "Sending Notifications", "Using Calendly Mobile"] },
+    { title: "Support", items: ["Help Center", "Video Tutorials", "Cookie Settings"] },
+    { title: "Add-ons", items: ["Download for Chrome", "Download for Firefox"] },
+    { title: "Developers", items: ["Developer Tools"] },
+];

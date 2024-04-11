@@ -1,7 +1,7 @@
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { brandLinks } from "../constants";
+import { brandLinks, footerLinks } from "../constants";
 
 const Footer = () => {
     return (
@@ -59,16 +59,22 @@ const Footer = () => {
 
             {/* Footer Links */}
             <div className="w-full">
-                <ul className="grid grid-cols-3 overflow-hidden gap-6">
-                    <li className="flex flex-col items-start justify-center gap-4">
-                        <h3 className="text-2xl font-extrabold font-montserrat mb-2">About</h3>
-                        <a href="#" className="text-gray-dark font-montserrat text-base font-normal pb border-b border-transparent tracking-wide transition-all hover:text-primary hover:border-b-primary">About</a>
-                        <a href="#" className="text-gray-dark font-montserrat text-base font-normal pb border-b border-transparent tracking-wide transition-all hover:text-primary hover:border-b-primary">About</a>
-                        <a href="#" className="text-gray-dark font-montserrat text-base font-normal pb border-b border-transparent tracking-wide transition-all hover:text-primary hover:border-b-primary">About</a>
-                        <a href="#" className="text-gray-dark font-montserrat text-base font-normal pb border-b border-transparent tracking-wide transition-all hover:text-primary hover:border-b-primary">About</a>
-                        <a href="#" className="text-gray-dark font-montserrat text-base font-normal pb border-b border-transparent tracking-wide transition-all hover:text-primary hover:border-b-primary">About</a>
-                    </li>
+                <ul className="grid grid-cols-3 justify-start items-start overflow-hidden gap-6 gap-y-12">
+                    {footerLinks.map((fLinks) => (
+                        <li key={fLinks.title} className="flex flex-col items-start justify-center gap-4">
+                            <h3 className="text-xl font-bold font-montserrat mb-2">{fLinks.title}</h3>
+                            {fLinks.items.map((linkItem) => (
+                                <a key={linkItem} href="#" className="text-gray-dark font-montserrat text-base font-normal pb border-b border-transparent tracking-wide transition-all hover:text-primary-dark hover:border-b-primary">{linkItem}</a>
+                            ))}
+
+                        </li>
+                    ))}
                 </ul>
+
+                <p className="text-gray-light text-sm font-montserrat mt-6 text-end"><a href="#">
+                    Privacy / Terms & Conditions
+                </a>
+                </p>
             </div>
         </footer>
     )

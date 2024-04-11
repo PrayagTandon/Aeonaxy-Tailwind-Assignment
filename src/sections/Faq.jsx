@@ -13,7 +13,7 @@ const Faq = () => {
             <ul className="w-3/5">
                 {
                     FAQs.map((faq) => (
-                        <li className="rounded-lg shadow-md py-5 px-5 flex justify-between items-center border border-gray-lightest mb-8">
+                        <li key={faq.ques} className="rounded-lg shadow-md py-5 px-5 flex justify-between items-center border border-gray-lightest mb-8">
                             <p className="text-2xl text-black font-semibold font-montserrat leading-relaxed">{faq.ques}</p>
                             <a href="#">
                                 <FontAwesomeIcon

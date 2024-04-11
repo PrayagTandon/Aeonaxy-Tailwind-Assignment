@@ -42,7 +42,7 @@ export default {
         "wide": "1440px"
       },
       gridTemplateColumns: {
-        '3': 'repeat(3, minmax(300px, 1fr))',
+        '3': 'repeat(auto-fit, minmax(300px, 1fr))',
         // For Footer
         'footer': '30% minmax(750px, 1fr)'
       }
